@@ -1,0 +1,77 @@
+body{
+    background-image: linear-gradient(180deg, #7723fe, #aa8798);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #e4e3e3;
+    height: 100vh;
+    font-size: larger;
+    font-family: 'PT Sans', sans-serif;
+}
+h1{
+    font-family: 'Rubik Glitch Pop',serif;
+    font-size: 56px;
+}
+table{
+    border: #e4e3e3 1px groove;
+}
+th, td{
+    padding: 2px 2em;
+    border: #e4e3e3 1px groove;
+}
+td{
+    color: #222;
+}
+button{
+    border: none;
+    border-radius: 3px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 3px;
+    transition:all 0.4s ease-in-out;
+    font-family: 'PT Sans', sans-serif;
+}
+button:hover{
+    background-color: #222;
+    color: #e4e3e3;
+    transition:all 0.4s ease-in-out
+}
+button:active{
+    outline: none;
+}
+input[type=submit]{
+    font-size: 18px;
+    padding: 4px 1.5em;
+    background-color: #deb887;
+    color: #030c20;
+    border: none;
+    border-radius: 8px;
+    margin: 2em 8px;
+    cursor: pointer;  
+    transition:all 0.4s ease-in-out;
+    font-family: 'PT Sans', sans-serif;
+}
+input[type=submit]:hover{
+    color: #deb887;
+    background-color: #030c20;
+    transition:all 0.4s ease-in-out;
+    
+}
+input[type=text]{
+    font-size: 18px;
+    padding: 4px 2px;
+    color: #deb887;
+    background-color: #030c20;
+    border: none;
+    border-radius: 8px;
+    margin: 2em 8px;
+    font-family: 'PT Sans', sans-serif;
+}
+input[type=text]:active{
+    outline: none;
+}
+h4{
+    font-family: 'PT Sans', sans-serif;
+}
